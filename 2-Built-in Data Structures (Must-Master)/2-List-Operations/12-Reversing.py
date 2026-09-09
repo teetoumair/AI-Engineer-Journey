@@ -1,4 +1,4 @@
-12-Reversing.py
+#12-Reversing.py
 
 numbers = [40, 10, 30, 20, 50]
 
