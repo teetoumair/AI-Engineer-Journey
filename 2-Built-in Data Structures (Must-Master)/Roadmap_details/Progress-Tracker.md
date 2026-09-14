@@ -44,8 +44,8 @@ PROGRESS RULES:
   NEVER re-teach finished topics. NEVER reset progress.
 - Completion % = completed leaf items / total leaf items × 100 (see below).
 
-CURRENT POSITION: Dictionaries section is COMPLETE.
-The next incomplete topic is Strings (immutability, slicing, formatting).
+CURRENT POSITION: Strings section is COMPLETE.
+The next incomplete topic is Pythonic Thinking (Iterators and generators).
 ```
 
 ---
@@ -76,7 +76,7 @@ Confidence:
 | Data Structures (Must-Master) | Tuples | COMPLETE | High | Full section incl. immutability, unpacking |
 | Data Structures (Must-Master) | Sets | COMPLETE | High | Full section incl. set algebra, membership |
 | Data Structures (Must-Master) | Dictionaries | COMPLETE | High | Covered: basics, create/access/update/add/del, keys()/values()/items(), loops, get(), membership, pop()+default, len(), update(), setdefault(), iteration patterns, nested dicts, practical project with mutability demo |
-| Data Structures (Must-Master) | Strings (immutability, slicing, formatting) | NOT STARTED | — | Next after Dictionaries |
+| Data Structures (Must-Master) | Strings (immutability, slicing, formatting) | COMPLETE | High | Covered: immutable, original never mutates, methods return new strings, slicing incl. step/reverse, f-strings (format specifiers `,`, `.2f`), strip/title/reverse practice |
 | Pythonic Thinking | Pythonic Thinking | NOT STARTED | — | |
 | Pythonic Thinking | Iterators and generators | NOT STARTED | — | |
 | Pythonic Thinking | zip, enumerate, map, filter, reduce | NOT STARTED | — | |
@@ -146,11 +146,11 @@ Counting method: each **leaf learning item** in `Roadmap.readme` counts as 1 mea
 (the smallest meaningful items — subtopics are listed explicitly in the file where they exist).
 
 - Total items: **70**
-- Completed: **11** (Python Core Fundamentals ×7, Lists, Tuples, Sets, Dictionaries)
+- Completed: **12** (Python Core Fundamentals ×7, Lists, Tuples, Sets, Dictionaries, Strings)
 - In progress: **0**
 
-**Completed / Total = 11 / 70 ≈ 16%**
-Next section: Strings (immutability, slicing, formatting).
+**Completed / Total = 12 / 70 ≈ 17%**
+Next section: Pythonic Thinking.
 
 ---
 
@@ -158,3 +158,4 @@ Next section: Strings (immutability, slicing, formatting).
 
 - **Initial setup:** Tracker created from `Roadmap.readme`. Applied completed progress (Python Core Fundamentals, Lists, Tuples, Sets). Dictionaries marked IN PROGRESS. Percentage = 14%. Next topic: finish Dictionaries → Strings.
 - **Dictionaries COMPLETE:** Covered: basics, create/access/update/add/del, keys()/values()/items(), loops, get(), membership, pop()+default, len(), update(), setdefault(), iteration patterns, nested dicts, practical project with mutability demo. Percentage = 16%. Next topic: Strings.
+- **Strings COMPLETE:** Immutability (original never mutates, methods return new strings), slicing (incl. negative, step, reverse), formatting (f-strings, `,` and `.2f` specifiers), strip/title practice. Percentage = 17%. Next topic: Pythonic Thinking.
